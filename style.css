@@ -1,0 +1,23 @@
+/*
+Theme Name: Code Ape
+Theme URI: 
+Author: 
+Author URI: 
+Description: 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+.home{min-height: 100vh;overflow: hidden;position:relative; }
+.home-bg{position: absolute;top: 0;left: 0;width: 100%;opacity:0.05;filter:alpha(opacity=5);}
+.logo img{height: 36px;}
+
+.home-content{margin-top: 200px;}
+.home-avatar{width: 136px;}
+.home-name{font-size: 36px;font-weight: bold;margin: 30px 0;color: #ffffff;}
+.home-description{margin: 30px 0;color: #ffffff;}
+.home-social{margin-top: 60px;}
+.home-social a{margin: 0 20px;}
+.home-skills{margin-top: 60px;}
+.home-skills img{margin: 0 20px;}
