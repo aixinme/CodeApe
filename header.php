@@ -11,8 +11,8 @@
 <body>
 <div class="container-fluid bg-dark overflow-hidden position-relative content-body">
     <img src="<?php bloginfo('template_url'); ?>/images/home-bg.jpg" class="img-fluid home-bg">
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark <?php if (!is_home())echo 'bg-dark';?>">
+        <div class="container">
             <a class="navbar-brand logo" href="<?php bloginfo('url')?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" class="img-fluid">
                 <span class="text-white d-inline-block"><?php bloginfo('name')?></span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,5 +34,5 @@
                     </li>
                 </ul>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
