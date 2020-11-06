@@ -1,9 +1,8 @@
-
-<div class="container-fluid bg-dark text-light pb-5 pt-5">
-    <div class="container">
+    <div class="container text-light pb-5 pt-5">
         <div class="row">
             <div class="col-12 text-center">
-            © 2020 Ape's Name
+            <?php echo '© '.date('Y')?>
+                <?php echo bloginfo( 'name' );?>
             </div>
         </div>
     </div>

@@ -9,4 +9,30 @@
     <title><?php echo bloginfo( 'name' )?></title>
   </head>
 <body>
-
+<div class="container-fluid bg-dark overflow-hidden position-relative content-body">
+    <img src="<?php bloginfo('template_url'); ?>/images/home-bg.jpg" class="img-fluid home-bg">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand logo" href="<?php bloginfo('url')?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" class="img-fluid">
+                <span class="text-white d-inline-block"><?php bloginfo('name')?></span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="<?php bloginfo('url');?>">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php bloginfo('url');?>/blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php bloginfo('url');?>/projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php bloginfo('url');?>/about">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
