@@ -10,7 +10,7 @@
 <div class="container-fluid bg-white">
     <div class="container">
         <div class="row bg-white pt-5 pb-5">
-            <div class="col-8 offset-2">
+            <div class="col-lg-8 offset-lg-2 col-md-12">
                 <div class="content">
                     <h3 class="mb-4">Projects</h3>
                     <?php
@@ -40,7 +40,7 @@
                         <div class="tag-posts">
                             <a href="<?php the_permalink() ?>" title="<?php the_title(); ?>">
                                <div class="tag-post-title d-inline-block text-dark"><?php the_title(); ?></div>
-                                <span class="float-right text-muted"><?php the_date('Y-m-d H:i'); ?></span>
+                                <span class="float-right text-muted"><?php echo get_the_time('Y-m-d H:i'); ?></span>
                             </a>
                             <div class="tag-post-tags mt-2"><?php the_tags('', ' / ', ''); ?></div>
                         </div>

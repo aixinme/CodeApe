@@ -15,7 +15,7 @@ $category = get_category($cat_ID);
 <div class="container-fluid bg-white">
     <div class="container">
         <div class="row pt-5 pb-5">
-            <div class="col-8 offset-2">
+            <div class="col-lg-8 offset-lg-2 col-md-12">
                 <?php if ($category->slug == 'blog'):?>
                     <div class="archives">
                         <?php
@@ -60,6 +60,21 @@ $category = get_category($cat_ID);
                         </a>
                         <div class="project-tags"><?php the_tags('', ' / ', ''); ?></div>
                         </div>
+                <?php  endwhile; endif; wp_reset_query();endif;?>
+                <?php
+                if (!in_array($category->slug,['blog','projects'])):
+                $args=array(
+                    'cat' => $cat_ID,
+                    'posts_per_page' => 10,
+                );
+                query_posts($args);if(have_posts()) : while (have_posts()) : the_post(); ?>
+                    <div class="tag-posts">
+                        <a href="<?php the_permalink() ?>" title="<?php the_title(); ?>">
+                            <div class="tag-post-title d-inline-block text-dark"><?php the_title(); ?></div>
+                            <span class="float-right text-muted"><?php echo get_the_time('Y-m-d H:i'); ?></span>
+                        </a>
+                        <div class="tag-post-tags mt-2"><?php the_tags('', ' / ', ''); ?></div>
+                    </div>
                 <?php  endwhile; endif; wp_reset_query();endif;?>
             </div>
         </div>
