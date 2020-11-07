@@ -53,11 +53,13 @@ $category = get_category($cat_ID);
                         'posts_per_page' => 10,
                     );
                     query_posts($args);if(have_posts()) : while (have_posts()) : the_post(); ?>
-                    <div class="project"><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>">
+                    <div class="project bg-dark">
+                        <a href="<?php the_permalink() ?>" title="<?php the_title(); ?>">
                             <img src="<?php echo wp_get_attachment_image_src( get_post_thumbnail_id(get_the_ID()),'large')[0]; ?>">
-                           <div class="project-title"><?php the_title(); ?></div>
-                            <?php the_tags( '<ul><li>', '</li><li>', '</li></ul>' ); ?>
-                        </a></div>
+                            <div class="project-title"><?php the_title(); ?></div>
+                        </a>
+                        <div class="project-tags"><?php the_tags('', ' / ', ''); ?></div>
+                        </div>
                 <?php  endwhile; endif; wp_reset_query();endif;?>
             </div>
         </div>
