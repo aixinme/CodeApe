@@ -6,8 +6,14 @@
 > - Your can write post and display projects
 > - Code highlight by highlightjs
 
-![screenshot.png](https://i.loli.net/2020/11/07/8sZ2KYIXzfErVgd.png)
-![](https://github.com/aixinme/CodeApe/blob/main/images/screenshot/1.png)
+
+![1.png](https://i.loli.net/2020/11/07/wSiORAf9tXE57ko.png)
+![2.png](https://i.loli.net/2020/11/07/ba17SscVolZTmf5.png)
+![3.png](https://i.loli.net/2020/11/07/ThYeXrcIiJvDPLx.png)
+![4.png](https://i.loli.net/2020/11/07/svgYkmbVyXd8htE.png)
+![5.png](https://i.loli.net/2020/11/07/2pEJudyihI6OYgH.png)
+![6.png](https://i.loli.net/2020/11/07/TgevrNBDqyYPtkW.png)
+
 
 #### Create categories
 
