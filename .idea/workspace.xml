@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66248eaf-17e5-488e-9743-b653eaead14e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1juJNHwhaZE98TgU4WEiz6C8uWs" />
@@ -36,8 +37,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../github/todo" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -55,14 +57,35 @@
       <workItem from="1604676708915" duration="1588000" />
       <workItem from="1604712246872" duration="9079000" />
       <workItem from="1604754595359" duration="7282000" />
-      <workItem from="1604834581424" duration="30000" />
+      <workItem from="1604834581424" duration="767000" />
+      <workItem from="1605278435528" duration="1244000" />
     </task>
+    <task id="LOCAL-00001" summary="20201108">
+      <created>1604834666920</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604834666920</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20201108" />
+    <option name="LAST_COMMIT_MESSAGE" value="20201108" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="526" y="87" key="CommitChangelistDialog2" timestamp="1604834664756">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="526" y="87" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604834664756" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605280227064">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605280227064" />
     <state x="822" y="463" key="NewPhpFileDialog" timestamp="1604725245033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -72,5 +95,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="344" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1604649223728" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604834685673">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604834685673" />
   </component>
 </project>
